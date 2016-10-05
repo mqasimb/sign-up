@@ -1,0 +1,66 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #298eea;
+	font-family: 'Roboto', sans-serif;
+}
+.logo {
+	width: 400px;
+	margin: 100px auto 0;
+}
+.logo img {
+	display: block;
+	height: 35px;
+	margin: 0 auto;
+}
+.signup-form {
+	margin-top: 10px;
+	width: 400px;
+	margin: 0 auto;
+	background-color: white;
+}
+h1{
+	padding-top: 30px;
+	text-align: center;
+}
+input, button {
+	width: 320px;
+	border: 2px solid lightgray;
+	padding: 15px;
+	border-radius: 5px;
+}
+input {
+	font-size: 20px;
+}
+label {
+	display:block;
+}
+.inputdiv {
+	padding-bottom: 20px;
+}
+fieldset {
+	border: none;
+	padding: 10px 40px 0;
+}
+button {
+	background-color: #15CD72;
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+button:hover {
+	background-color: #0CB863;
+}
+.forgot-password {
+	text-align: center;
+	padding-bottom: 40px;
+}
+.forgot-password a {
+	color: gray;
+}
+p, p a {
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
